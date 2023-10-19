@@ -6,11 +6,10 @@ import lombok.NonNull;
 
 @Data
 @AllArgsConstructor
-public class CreateUserRequest {
+public class LoginUserRequest {
     @NonNull
     private String username;
     @NonNull
     private String password;
-    @NonNull
-    private String email;
+
 }
